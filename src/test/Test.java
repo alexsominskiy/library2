@@ -17,6 +17,6 @@ public class Test {
 		ala.add(new Author("John","Johnson"));
 		ala.add(new Author("John","Smith"));
 		ala.add(new Author("John","Fox"));
-		for (Book book : lib.getBooksPrintedAfter(1970))System.out.println(book);
+		for (Book book : lib.getBooksPrintedAfter(1971))System.out.println(book);
 	}
 }
